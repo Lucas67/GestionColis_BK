@@ -1,0 +1,31 @@
+# Ignorer les fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Ignorer les dépendances (ex: Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ignorer les fichiers de logs
+logs/
+*.log
+log/
+
+# Ignorer les fichiers de build
+dist/
+build/
+out/
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers IDE/Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
